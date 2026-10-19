@@ -1,0 +1,601 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CraftingPieces>
+  <CraftingPiece id="DS4_HunnicSpathaDecorated_Blade" name="{=DS4_HunnicSpathaDecorated_Blade}Abrau-Djurso Spatha Blade" tier="3" piece_type="Blade" mesh="DS4_HunnicSpathaDecorated_Blade" culture="Culture.khuzait" length="95" weight="0.93">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="DS4_HunnicSpathaDecorated_Sheath">
+		<Thrust damage_type="Pierce" damage_factor="3.2"/>
+		<Swing damage_type="Cut" damage_factor="3.5"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="DS4_HunnicSpathaDecorated_Guard" name="{=DS4_HunnicSpathaDecorated_Guard}Abrau-Djurso Spatha Guard" tier="3" piece_type="Guard" mesh="DS4_HunnicSpathaDecorated_Guard" culture="Culture.khuzait" length="2.2" weight="0.20">
+	<BuildData next_piece_offset="0"/>
+	<StatContributions armor_bonus="5"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="DS4_HunnicSpathaDecorated_Handle" name="{=DS4_HunnicSpathaDecorated_Handle}Abrau-Djurso Spatha Grip" tier="3" piece_type="Handle" mesh="DS4_HunnicSpathaDecorated_Handle" culture="Culture.khuzait" length="16.2" weight="0.2">
+	<BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="DS4_HunnicSpathaDecorated_Pommel" name="{=DS4_HunnicSpathaDecorated_Pommel}Abrau-Djurso Spatha Pommel" tier="3" piece_type="Pommel" mesh="DS4_HunnicSpathaDecorated_Pommel" culture="Culture.khuzait" length="2.7" weight="0.16">
+	<BuildData next_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="DS4_HunnicSpathaSteel_Blade" name="{=DS4_HunnicSpathaSteel_Blade}Abrau-Djurso Iron Spatha Blade" tier="3" piece_type="Blade" mesh="DS4_HunnicSpathaSteel_Blade" culture="Culture.khuzait" length="95" weight="0.93">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="DS4_HunnicSpathaSteel_Sheath">
+		<Thrust damage_type="Pierce" damage_factor="3.2"/>
+		<Swing damage_type="Cut" damage_factor="3.4"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="DS4_HunnicSpathaSteel_Guard" name="{=DS4_HunnicSpathaSteel_Guard}Abrau-Djurso Iron Spatha Guard" tier="3" piece_type="Guard" mesh="DS4_HunnicSpathaSteel_Guard" culture="Culture.khuzait" length="2.2" weight="0.18">
+	<BuildData next_piece_offset="0"/>
+	<StatContributions armor_bonus="5"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="DS4_HunnicSpathaSteel_Handle" name="{=DS4_HunnicSpathaSteel_Handle}Abrau-Djurso Iron Spatha Grip" tier="3" piece_type="Handle" mesh="DS4_HunnicSpathaSteel_Handle" culture="Culture.khuzait" length="16.2" weight="0.19">
+	<BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="DS4_HunnicSpathaSteel_Pommel" name="{=DS4_HunnicSpathaSteel_Pommel}Abrau-Djurso Iron Spatha Pommel" tier="3" piece_type="Pommel" mesh="DS4_HunnicSpathaSteel_Pommel" culture="Culture.khuzait" length="2.7" weight="0.15">
+	<BuildData next_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_axe_handle_sassanid_1" name="{=be_axe_handle_sassanid_1}Sassanid Iron Handle" tier="5" piece_type="Handle" mesh="be_axe_handle_sassanid_1" length="100" weight="1.087" item_holster_pos_shift="0,0,-0.05">
+	<BuildData piece_offset="26" next_piece_offset="-10"/>
+	<Materials>
+		<Material id="Iron3" count="1"/>
+		<Material id="Iron4" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_axe_head_caucasian_1" name="{=be_axe_head_caucasian_1}Caucasian Tall Bearded Axe Head" tier="4" piece_type="Blade" mesh="be_axe_head_caucasian_1" distance_to_next_piece="5.787" distance_to_previous_piece="1.483" weight="0.6933" is_default="true">
+	<BuildData piece_offset="-2.966"/>
+	<BladeData stack_amount="3" blade_length="13.566" blade_width="14.157" physics_material="metal_weapon" body_name="bo_axe_longer_b" holster_mesh="throwing_axe_quiver_1">
+		<Swing damage_type="Cut" damage_factor="4.4"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron4" count="3"/>
+	</Materials>
+	<Flags>
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+		<Flag name="BonusAgainstShield"/>
+	</Flags>
+</CraftingPiece>
+  <CraftingPiece id="be_axe_head_caucasian_2" name="{=be_axe_head_caucasian_2}Caucasian Bearded Axe Head" tier="4" piece_type="Blade" mesh="be_axe_head_caucasian_2" distance_to_next_piece="5.787" distance_to_previous_piece="1.483" weight="0.493" is_default="true">
+	<BuildData piece_offset="-2.966"/>
+	<BladeData stack_amount="3" blade_length="10.566" blade_width="15.157" physics_material="metal_weapon" body_name="bo_axe_longer_b" holster_mesh="throwing_axe_quiver_1">
+		<Swing damage_type="Cut" damage_factor="4.1"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron4" count="3"/>
+	</Materials>
+	<Flags>
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+		<Flag name="BonusAgainstShield"/>
+	</Flags>
+</CraftingPiece>
+  <CraftingPiece id="be_axe_head_german_1" name="{=be_axe_head_german_1}Northern Axe Head" tier="2" piece_type="Blade" mesh="be_axe_head_german_1" distance_to_next_piece="3.414" distance_to_previous_piece="2.617" weight="0.9">
+	<BuildData piece_offset="-5.234"/>
+	<BladeData stack_amount="3" blade_length="12.105" blade_width="25.618" physics_material="metal_weapon" body_name="bo_axe_longer_b">
+		<Swing damage_type="Cut" damage_factor="3.5"/>
+	</BladeData>
+	<Flags>
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron2" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_axe_head_german_2" name="{=be_axe_head_german_2}Germanic Axe Head" tier="2" piece_type="Blade" mesh="be_axe_head_german_2" distance_to_next_piece="3.986" distance_to_previous_piece="2.314" weight="0.785">
+	<BuildData piece_offset="-5.628"/>
+	<BladeData stack_amount="3" blade_length="11.2" blade_width="24.433" physics_material="metal_weapon" body_name="bo_axe_longer_a">
+		<Swing damage_type="Cut" damage_factor="3.3"/>
+	</BladeData>
+	<Flags>
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron2" count="4"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_axe_head_german_3" name="{=be_axe_head_german_3}Germanic Iron Axe Head" tier="1" piece_type="Blade" mesh="be_axe_head_german_3" distance_to_next_piece="4.3" distance_to_previous_piece="2.7" weight="0.602" is_default="true">
+	<BuildData piece_offset="-5.4"/>
+	<BladeData stack_amount="3" blade_length="9.364" blade_width="18.21" physics_material="metal_weapon" body_name="bo_axe_longer_b">
+		<Swing damage_type="Cut" damage_factor="2.8"/>
+	</BladeData>
+	<Flags>
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron2" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_axe_head_sassanid_1" name="{=be_axe_head_sassanid_1}Sassanid Butted Long Axe Head" tier="4" piece_type="Blade" mesh="be_axe_head_sassanid_1" distance_to_next_piece="14.96" distance_to_previous_piece="2.712" weight="0.8296">
+	<BuildData piece_offset="-5.424"/>
+	<BladeData stack_amount="3" blade_length="25.366" blade_width="15.192" physics_material="metal_weapon" body_name="bo_axe_longer_b">
+		<Swing damage_type="Cut" damage_factor="3.2"/>
+	</BladeData>
+	<Flags>
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron2" count="3"/>
+		<Material id="Iron3" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_axe_head_sassanid_2" name="{=be_axe_head_sassanid_2}Sassanid Long Axe Head" tier="3" piece_type="Blade" mesh="be_axe_head_sassanid_2" distance_to_next_piece="14.96" distance_to_previous_piece="2.712" weight="0.7296">
+	<BuildData piece_offset="-5.424"/>
+	<BladeData stack_amount="3" blade_length="30.366" blade_width="15.192" physics_material="metal_weapon" body_name="bo_axe_longer_b">
+		<Swing damage_type="Cut" damage_factor="3.1"/>
+	</BladeData>
+	<Flags>
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron2" count="3"/>
+		<Material id="Iron3" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_axe_head_sassanid_3" name="{=be_axe_head_sassanid_3}Sassanid Battle Axe Head" tier="4" piece_type="Blade" mesh="be_axe_head_sassanid_3" distance_to_next_piece="3.4" distance_to_previous_piece="1.3" weight="0.716">
+	<BuildData piece_offset="-2.6"/>
+	<BladeData stack_amount="3" blade_length="11.4" blade_width="17.4" physics_material="metal_weapon" body_name="bo_axe_longer_b">
+		<Swing damage_type="Cut" damage_factor="3.5"/>
+	</BladeData>
+	<Flags>
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="1"/>
+		<Material id="Iron4" count="4"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_dagger_blade_1" name="{=be_dagger_blade_1}Fine Dagger Blade" tier="1" piece_type="Blade" mesh="dagger_blade_1" length="39" weight="0.225" is_default="true">
+	<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_knife_a" holster_mesh="dagger_blade_1_scabbard_1">
+		<Thrust damage_type="Pierce" damage_factor="4.2"/>
+		<Swing damage_type="Cut" damage_factor="4.8"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_dagger_blade_3" name="{=be_dagger_blade_3}Fine Seax Blade" tier="3" piece_type="Blade" mesh="dagger_blade_3" length="47" weight="0.25">
+	<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_knife_a" holster_mesh="dagger_blade_3_scabbard_1">
+		<Thrust damage_type="Pierce" damage_factor="3.7"/>
+		<Swing damage_type="Cut" damage_factor="5.6"/>
+	</BladeData>
+	<Flags>
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron4" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_dagger_blade_6" name="{=be_dagger_blade_6}Fine Poniard Blade" tier="3" piece_type="Blade" mesh="dagger_blade_6" length="44.7" weight="0.29">
+	<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_knife_a" holster_mesh="dagger_blade_6_scabbard_2">
+		<Thrust damage_type="Pierce" damage_factor="4.4"/>
+		<Swing damage_type="Cut" damage_factor="4.5"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron4" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_dagger_blade_7" name="{=be_dagger_blade_7}Fine Skaen Blade" tier="2" piece_type="Blade" mesh="dagger_blade_7" length="40" weight="0.335">
+	<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_knife_a" holster_mesh="dagger_blade_7_scabbard_1">
+		<Thrust damage_type="Pierce" damage_factor="4.3"/>
+		<Swing damage_type="Cut" damage_factor="4.5"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_dagger_blade_9" name="{=be_dagger_blade_9}Fine Sica Blade" tier="3" piece_type="Blade" mesh="dagger_blade_9" length="43" weight="0.475">
+	<BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_knife_a" holster_mesh="dagger_blade_9_scabbard_1">
+		<Thrust damage_type="Pierce" damage_factor="2.1"/>
+		<Swing damage_type="Cut" damage_factor="5.8"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron4" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_mace_head_caucasian_1" name="{=be_mace_head_caucasian_1}Caucasian Iron Mace Head" tier="5" piece_type="Blade" mesh="be_mace_head_caucasian_1" length="9.2" weight="0.88" full_scale="true" excluded_item_usage_features="thrust">
+	<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_mace_a">
+		<Swing damage_type="Blunt" damage_factor="3.05"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron4" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_mace_head_caucasian_2" name="{=be_mace_head_caucasian_2}Caucasian Bronze Star Mace Head" tier="5" piece_type="Blade" mesh="be_mace_head_caucasian_2" length="8.4" weight="0.91" full_scale="true" excluded_item_usage_features="thrust">
+	<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_mace_a">
+		<Swing damage_type="Blunt" damage_factor="3.15"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron4" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_mace_head_roman_1" name="{=be_mace_head_roman_1}Roman Mace Head" tier="4" piece_type="Blade" mesh="be_mace_head_roman_1" length="10" weight="0.93" full_scale="true" excluded_item_usage_features="thrust">
+	<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_mace_a">
+		<Swing damage_type="Blunt" damage_factor="3.12"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron3" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_swordspear_1" name="{=be_swordspear_1}Sword-Spear Head" tier="5" piece_type="Blade" mesh="spear_blade_18" length="70" weight="0.9096">
+	<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+		<Thrust damage_type="Pierce" damage_factor="2"/>
+		<Swing damage_type="Cut" damage_factor="2.8"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron4" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_weapon_feltwell_spatha_blade" name="{=be_weapon_feltwell_spatha_blade}Feltwell Spatha Blade" tier="3" piece_type="Blade" mesh="be_weapon_feltwell_spatha_blade" culture="Culture.battania" length="70" weight="0.73">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="be_weapon_feltwell_spatha_sheath">
+		<Thrust damage_type="Pierce" damage_factor="2.9"/>
+		<Swing damage_type="Cut" damage_factor="3.7"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_weapon_feltwell_spatha_guard" name="{=be_weapon_feltwell_spatha_guard}Feltwell Spatha Guard" tier="3" piece_type="Guard" mesh="be_weapon_feltwell_spatha_guard" culture="Culture.battania" length="2.1" weight="0.20">
+	<BuildData next_piece_offset="0"/>
+	<StatContributions armor_bonus="5"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_weapon_feltwell_spatha_handle" name="{=be_weapon_feltwell_spatha_handle}Feltwell Spatha Grip" tier="3" piece_type="Handle" mesh="be_weapon_feltwell_spatha_handle" culture="Culture.battania" length="10.88" weight="0.14">
+	<BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_weapon_feltwell_spatha_pommel" name="{=be_weapon_feltwell_spatha_pommel}Feltwell Spatha Pommel" tier="3" piece_type="Pommel" mesh="be_weapon_feltwell_spatha_pommel" culture="Culture.battania" length="2.6" weight="0.21">
+	<BuildData next_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_weapon_nydam_spatha_blade" name="{=be_weapon_nydam_spatha_blade}Nydam Spatha Blade" tier="3" piece_type="Blade" mesh="be_weapon_nydam_spatha_blade" culture="Culture.empire" length="96" weight="0.96">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="be_weapon_nydam_spatha_sheath">
+		<Thrust damage_type="Pierce" damage_factor="3.3"/>
+		<Swing damage_type="Cut" damage_factor="3.4"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_weapon_nydam_spatha_guard" name="{=be_weapon_nydam_spatha_guard}Nydam Spatha Guard" tier="3" piece_type="Guard" mesh="be_weapon_nydam_spatha_guard" culture="Culture.empire" length="2" weight="0.22">
+	<BuildData next_piece_offset="0"/>
+	<StatContributions armor_bonus="5"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_weapon_nydam_spatha_handle" name="{=be_weapon_nydam_spatha_handle}Nydam Spatha Grip" tier="3" piece_type="Handle" mesh="be_weapon_nydam_spatha_handle" culture="Culture.empire" length="13.5" weight="0.15">
+	<BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="be_weapon_nydam_spatha_pommel" name="{=be_weapon_nydam_spatha_pommel}Nydam Spatha Pommel" tier="3" piece_type="Pommel" mesh="be_weapon_nydam_spatha_pommel" culture="Culture.empire" length="2.9" weight="0.3">
+	<BuildData next_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="cla_rome_weapon_ejsbol_sarry_spatha_blade" name="{=cla_rome_weapon_ejsbol_sarry_spatha_blade}Ejsbol-Sarry Spatha Blade" tier="3" piece_type="Blade" mesh="cla_rome_weapon_ejsbol_sarry_spatha_blade" culture="Culture.empire" length="96" weight="0.93">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="cla_rome_weapon_ejsbol_sarry_spatha_sheath">
+		<Thrust damage_type="Pierce" damage_factor="3.1"/>
+		<Swing damage_type="Cut" damage_factor="3.5"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="cla_rome_weapon_ejsbol_sarry_spatha_guard" name="{=cla_rome_weapon_ejsbol_sarry_spatha_guard}Ejsbol-Sarry Spatha Guard" tier="3" piece_type="Guard" mesh="cla_rome_weapon_ejsbol_sarry_spatha_guard" culture="Culture.empire" length="2" weight="0.20">
+	<BuildData next_piece_offset="0"/>
+	<StatContributions armor_bonus="5"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="cla_rome_weapon_ejsbol_sarry_spatha_handle" name="{=cla_rome_weapon_ejsbol_sarry_spatha_handle}Ejsbol-Sarry Spatha Grip" tier="3" piece_type="Handle" mesh="cla_rome_weapon_ejsbol_sarry_spatha_handle" culture="Culture.empire" length="13.48" weight="0.12">
+	<BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="cla_rome_weapon_ejsbol_sarry_spatha_pommel" name="{=cla_rome_weapon_ejsbol_sarry_spatha_pommel}Ejsbol-Sarry Spatha Pommel" tier="3" piece_type="Pommel" mesh="cla_rome_weapon_ejsbol_sarry_spatha_pommel" culture="Culture.empire" length="2.7" weight="0.21">
+	<BuildData next_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="cla_rome_weapon_spatha_podlodow_blade" name="{=cla_rome_weapon_spatha_podlodow_blade}Podlodow Spatha Blade" tier="3" piece_type="Blade" mesh="cla_rome_weapon_spatha_podlodow_blade" culture="Culture.empire" length="78" weight="0.73">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="cla_rome_weapon_spatha_podlodow_sheath">
+		<Thrust damage_type="Pierce" damage_factor="2.9"/>
+		<Swing damage_type="Cut" damage_factor="3.7"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="cla_rome_weapon_spatha_podlodow_guard" name="{=cla_rome_weapon_spatha_podlodow_guard}Podlodow Spatha Guard" tier="3" piece_type="Guard" mesh="cla_rome_weapon_spatha_podlodow_guard" culture="Culture.empire" length="2" weight="0.20">
+	<BuildData next_piece_offset="0"/>
+	<StatContributions armor_bonus="5"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="cla_rome_weapon_spatha_podlodow_handle" name="{=cla_rome_weapon_spatha_podlodow_handle}Podlodow Spatha Grip" tier="3" piece_type="Handle" mesh="cla_rome_weapon_spatha_podlodow_handle" culture="Culture.empire" length="10.48" weight="0.11">
+	<BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="cla_rome_weapon_spatha_podlodow_pommel" name="{=cla_rome_weapon_spatha_podlodow_pommel}Podlodow Spatha Pommel" tier="3" piece_type="Pommel" mesh="cla_rome_weapon_spatha_podlodow_pommel" culture="Culture.empire" length="2.7" weight="0.2">
+	<BuildData next_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="kruglitsa_spatha_blade" name="{=kruglitsa_spatha_blade}Kruglitsa Spatha Blade" tier="3" piece_type="Blade" mesh="kruglitsa_spatha_blade" culture="Culture.khuzait" length="92" weight="0.92">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="kruglitsa_spatha_scabbard">
+		<Thrust damage_type="Pierce" damage_factor="3.2"/>
+		<Swing damage_type="Cut" damage_factor="3.3"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="kruglitsa_spatha_guard" name="{=kruglitsa_spatha_guard}Kruglitsa Spatha Guard" tier="3" piece_type="Guard" mesh="kruglitsa_spatha_guard" culture="Culture.khuzait" length="0.8" weight="0.14">
+	<BuildData next_piece_offset="0"/>
+	<StatContributions armor_bonus="5"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="kruglitsa_spatha_handle" name="{=kruglitsa_spatha_handle}Kruglitsa Spatha Grip" tier="3" piece_type="Handle" mesh="kruglitsa_spatha_handle" culture="Culture.khuzait" length="24.9" weight="0.4">
+	<BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="kruglitsa_spatha_pommel" name="{=kruglitsa_spatha_pommel}Kruglitsa Spatha Pommel" tier="3" piece_type="Pommel" mesh="kruglitsa_spatha_pommel" culture="Culture.khuzait" length="2.41" weight="0.14">
+	<BuildData next_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="mace_head_27" name="{=mace_head_27}Wooden Club Head" tier="2" piece_type="Blade" mesh="mace_head_27" distance_to_next_piece="7.6" distance_to_previous_piece="4.1" weight="0.55" excluded_item_usage_features="thrust" full_scale="true">
+	<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_mace_a">
+		<Swing damage_type="Blunt" damage_factor="2.0"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron2" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="mace_head_28" name="{=mace_head_28}Stone Club Head" tier="2" piece_type="Blade" mesh="mace_head_28" distance_to_next_piece="7.6" distance_to_previous_piece="4.1" weight="0.83" excluded_item_usage_features="thrust" full_scale="true">
+	<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_mace_a">
+		<Swing damage_type="Blunt" damage_factor="2.0"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron2" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="mace_head_29" name="{=mace_head_29}Simple Club Head" tier="2" piece_type="Blade" mesh="mace_head_29" distance_to_next_piece="7.6" distance_to_previous_piece="4.1" weight="0.65" excluded_item_usage_features="thrust" full_scale="true">
+	<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_mace_a">
+		<Swing damage_type="Blunt" damage_factor="2.0"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron2" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="scyth_sword_01_blade" name="{=scyth_sword_01_blade}Royal Scythian Sword Blade" tier="3" piece_type="Blade" mesh="scyth_sword_01_blade" culture="Culture.khuzait" length="66.4" weight="0.41" is_hidden="true">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="scyth_sword_01_sheath">
+		<Thrust damage_type="Pierce" damage_factor="5.6"/>
+		<Swing damage_type="Cut" damage_factor="5.2"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="scyth_sword_01_guard" name="{=scyth_sword_01_guard}Royal Scythian Sword Guard" tier="3" piece_type="Guard" mesh="scyth_sword_01_guard" culture="Culture.khuzait" length="5.5" weight="0.38" is_hidden="true">
+	<BuildData next_piece_offset="0"/>
+	<StatContributions armor_bonus="5"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="scyth_sword_01_handle" name="{=scyth_sword_01_handle}Royal Scythian Sword Grip" tier="3" piece_type="Handle" mesh="scyth_sword_01_handle" culture="Culture.khuzait" length="7.6" weight="0.24" is_hidden="true">
+	<BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="scyth_sword_01_pommel" name="{=scyth_sword_01_pommel}Royal Scythian Sword Pommel" tier="3" piece_type="Pommel" mesh="scyth_sword_01_pommel" culture="Culture.khuzait" length="5.7" weight="0.36" is_hidden="true">
+	<BuildData next_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="scyth_sword_01_rusty_blade" name="{=scyth_sword_01_rusty_blade}Royal Scythian Rusted Blade" tier="3" piece_type="Blade" mesh="scyth_sword_01_rusty_blade" culture="Culture.khuzait" length="66.4" weight="0.41" is_hidden="true">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="scyth_sword_01_sheath">
+		<Thrust damage_type="Pierce" damage_factor="1.7"/>
+		<Swing damage_type="Cut" damage_factor="1.3"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="twb_javelin_handle_1" name="{=loasjashft}Long Pine Javelin Shaft" tier="2" piece_type="Handle" mesh="twb_javelin_handle_1" length="128" weight="0.29" excluded_item_usage_features="long" CraftingCost="80" is_default="true">
+	<BuildData piece_offset="1.0" next_piece_offset="1.0" previous_piece_offset="0.0"/>
+	<Materials>
+		<Material id="Wood" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="twb_javelin_handle_2" name="{=loasjashft}Long Ash Javelin Shaft" tier="2" piece_type="Handle" mesh="twb_javelin_handle_2" length="123" weight="0.3" excluded_item_usage_features="long" CraftingCost="80" is_default="true">
+	<BuildData piece_offset="1.0" next_piece_offset="1.0" previous_piece_offset="0.0"/>
+	<Materials>
+		<Material id="Wood" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="twb_javelin_head_1" name="{=ibrjavhd2}Iron Barbed Javelin Head" tier="3" piece_type="Blade" mesh="twb_javelin_head_1" length="10" weight="0.08" excluded_item_usage_features="swing">
+	<BladeData stack_amount="6" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="no_jav_quiver" holster_body_name="bo_throwing_spear_quiver_4_1" holster_mesh_length="96.2">
+		<Thrust damage_type="Pierce" damage_factor="4.3"/>
+	</BladeData>
+	<Flags>
+		<Flag name="BonusAgainstShield"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="1"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="twb_javelin_head_2" name="{=lshjavhd1}Leaf Shaped Javelin Head" tier="3" piece_type="Blade" mesh="twb_javelin_head_2" length="25" weight="0.15" excluded_item_usage_features="swing">
+	<BladeData stack_amount="6" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="no_jav_quiver" holster_body_name="bo_throwing_spear_quiver_4_1" holster_mesh_length="96.2">
+		<Thrust damage_type="Pierce" damage_factor="4.3"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron4" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="twb_javelin_head_3" name="{=lshjavhd3}Javelin Head" tier="2" piece_type="Blade" mesh="twb_javelin_head_3" length="22" weight="0.12" excluded_item_usage_features="swing">
+	<BladeData stack_amount="6" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="no_jav_quiver" holster_body_name="bo_throwing_spear_quiver_4_1" holster_mesh_length="96.2">
+		<Thrust damage_type="Pierce" damage_factor="4.1"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron4" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="twb_javelin_head_4" name="{=lshjavhd4}Jagged Javelin Head" tier="3" piece_type="Blade" mesh="twb_javelin_head_4" length="20" weight="0.17" excluded_item_usage_features="swing">
+	<BladeData stack_amount="6" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="no_jav_quiver" holster_body_name="bo_throwing_spear_quiver_4_1" holster_mesh_length="96.2">
+		<Thrust damage_type="Pierce" damage_factor="4.4"/>
+	</BladeData>
+	<Flags>
+		<Flag name="BonusAgainstShield"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron4" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="twb_javelin_head_5" name="{=lshjavhd5}Leaf Shaped Javelin Head 2" tier="3" piece_type="Blade" mesh="twb_javelin_head_5" length="25" weight="0.16" excluded_item_usage_features="swing">
+	<BladeData stack_amount="6" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="no_jav_quiver" holster_body_name="bo_throwing_spear_quiver_4_1" holster_mesh_length="96.2">
+		<Thrust damage_type="Pierce" damage_factor="4.4"/>
+	</BladeData>
+	<Materials>
+		<Material id="Iron4" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="twb_javelin_head_6" name="{=lshjavhd6}Leaf Shaped Javelin Head 3" tier="4" piece_type="Blade" mesh="twb_javelin_head_6" length="23" weight="0.14" excluded_item_usage_features="swing">
+	<BladeData stack_amount="6" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="no_jav_quiver" holster_body_name="bo_throwing_spear_quiver_4_1" holster_mesh_length="96.2">
+		<Thrust damage_type="Pierce" damage_factor="4.5"/>
+	</BladeData>
+	<Flags>
+		<Flag name="BonusAgainstShield"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron4" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="twb_javelin_head_7" name="{=lshjavhd7}Angon Javelin Head" tier="4" piece_type="Blade" mesh="spear_blade_38" length="23.7" weight="0.24" excluded_item_usage_features="swing">
+	<BladeData stack_amount="2" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="no_jav_quiver" holster_body_name="bo_throwing_spear_quiver_4_1" holster_mesh_length="96.2">
+		<Thrust damage_type="Pierce" damage_factor="3"/>
+	</BladeData>
+	<Flags>
+		<Flag name="BonusAgainstShield"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron4" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="valusalfstan_roman_spatha_blade" name="{=valusalfstan_roman_spatha_blade}Old Noble Spatha Blade" tier="3" piece_type="Blade" mesh="valusalfstan_roman_spatha_blade" culture="Culture.empire" length="83" weight="0.82">
+	<BladeData stack_amount="4" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="valusalfstan_roman_spatha_sheath">
+		<Thrust damage_type="Pierce" damage_factor="3.6"/>
+		<Swing damage_type="Cut" damage_factor="3.4"/>
+	</BladeData>
+	<Flags>
+		<Flag name="Civilian" type="ItemFlags"/>
+	</Flags>
+	<Materials>
+		<Material id="Iron3" count="3"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="valusalfstan_roman_spatha_guard" name="{=valusalfstan_roman_spatha_guard}Old Noble Spatha Guard" tier="3" piece_type="Guard" mesh="valusalfstan_roman_spatha_guard" culture="Culture.empire" length="2.5" weight="0.28">
+	<BuildData next_piece_offset="0"/>
+	<StatContributions armor_bonus="5"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="valusalfstan_roman_spatha_handle" name="{=valusalfstan_roman_spatha_handle}Old Noble Spatha Grip" tier="3" piece_type="Handle" mesh="valusalfstan_roman_spatha_handle" culture="Culture.empire" length="16" weight="0.21">
+	<BuildData piece_offset="0" next_piece_offset="0" previous_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+  <CraftingPiece id="valusalfstan_roman_spatha_pommel" name="{=valusalfstan_roman_spatha_pommel}Old Noble Spatha Pommel" tier="3" piece_type="Pommel" mesh="valusalfstan_roman_spatha_pommel" culture="Culture.empire" length="2.7" weight="0.20">
+	<BuildData next_piece_offset="0"/>
+	<Materials>
+		<Material id="Wood" count="2"/>
+	</Materials>
+</CraftingPiece>
+</CraftingPieces>

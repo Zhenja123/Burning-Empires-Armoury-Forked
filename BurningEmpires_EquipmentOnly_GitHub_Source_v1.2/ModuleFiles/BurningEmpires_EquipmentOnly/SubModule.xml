@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/SubModule.xsd">
+  <Id value="BurningEmpiresEquipmentOnly"/>
+  <Name value="Burning Empires Equipment Only"/>
+  <Version value="v0.7.0"/>
+  <DefaultModule value="false"/>
+  <ModuleCategory value="Singleplayer"/>
+  <ModuleType value="Community"/>
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="Sandbox"/>
+  </DependedModules>
+  <Xmls><XmlNode><XmlName id="CraftingPieces" path="be_generated/crafting_pieces"/><IncludedGameTypes><GameType value="Campaign"/><GameType value="CampaignStoryMode"/><GameType value="CustomGame"/></IncludedGameTypes></XmlNode>
+    <XmlNode><XmlName id="CraftingTemplates" path="be_generated/crafting_templates"/><IncludedGameTypes><GameType value="Campaign"/><GameType value="CampaignStoryMode"/><GameType value="CustomGame"/></IncludedGameTypes></XmlNode>
+  <XmlNode><XmlName id="WeaponDescriptions" path="weapon_descriptions"/><IncludedGameTypes><GameType value="Campaign"/><GameType value="CampaignStoryMode"/><GameType value="CustomGame"/></IncludedGameTypes></XmlNode><XmlNode><XmlName id="Items" path="be_generated/items"/><IncludedGameTypes><GameType value="Campaign"/><GameType value="CampaignStoryMode"/><GameType value="CustomGame"/></IncludedGameTypes></XmlNode>
+    <XmlNode><XmlName id="ItemModifierGroups" path="item_modifiers_groups"/><IncludedGameTypes><GameType value="Campaign"/><GameType value="CampaignStoryMode"/><GameType value="CustomGame"/></IncludedGameTypes></XmlNode>
+    <XmlNode><XmlName id="ItemModifiers" path="item_modifiers"/><IncludedGameTypes><GameType value="Campaign"/><GameType value="CampaignStoryMode"/><GameType value="CustomGame"/></IncludedGameTypes></XmlNode>
+    </Xmls></Module>
