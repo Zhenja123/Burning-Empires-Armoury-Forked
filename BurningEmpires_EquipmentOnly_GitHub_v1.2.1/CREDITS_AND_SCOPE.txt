@@ -1,0 +1,7 @@
+Credits and scope
+
+Burning Empires is a third-party mod by the Burning Empires Team. Official page: https://www.nexusmods.com/mountandblade2bannerlord/mods/7750
+
+This is an unofficial community equipment-only companion and is not endorsed by or affiliated with the Burning Empires Team or TaleWorlds. The installer does not ship Burning Empires TPAC asset packages: it copies them from the user's locally installed BurningEmpires module and leaves that original module unchanged.
+
+Permission to publish this equipment-only companion has been obtained from the Burning Empires Team and Levente, the project lead. The companion XML files are derived from Burning Empires / Bannerlord XML data. The original Burning Empires TPAC asset packages are not included in this ZIP; the installer copies them from the user's locally installed BurningEmpires module. Follow the applicable hosting platform rules when publishing.

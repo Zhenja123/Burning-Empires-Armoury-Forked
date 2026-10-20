@@ -1,0 +1,8 @@
+Burning Empires Equipment Only — v1.2.1 packaging update
+
+- Added ModuleFiles\BurningEmpires_EquipmentOnly\ModuleData\cloth_bodies.xml to the distributable source package.
+- Updated Install-EquipmentOnly.ps1 to require cloth_bodies.xml before staging the installation and to include it in XML validation.
+- Preserved the existing module SubModule.xml; no speculative registration was added.
+- Kept be_skins.xml excluded.
+- Maintainer test report: Celtic and Germanic clothing showed no clipping on the vanilla male body.
+- No changes were made to the original Burning Empires asset packages.
